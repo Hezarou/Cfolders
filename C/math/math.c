@@ -12,7 +12,13 @@ int add(int a, int b)
     return addres;
 }
 
+int subtract(int a, int b)
+{
+    int subresult = 0;
+    subresult = a - b;
 
+    return subresult;
+}
 
 int main(void)
 {
@@ -21,7 +27,7 @@ int main(void)
     int b = 4;
     
     result = add(a, b);
-    printf("Result is: %d\n", result );
+    printf("Result for add is: %d\n", result );
     
     return 0;
 }
