@@ -41,11 +41,18 @@ int division(int a, int b)
 int main(void)
 {
     int result = 0;
-    int a = 1;
-    int b = 4;
+    int a = 8;
+    int b = 3;
     
     result = add(a, b);
     printf("Result for add is: %d\n", result );
+    result = subtract(a, b);
+    printf("Result for subtract is: %d\n", result );
+    result = multiplication(a, b);
+    printf("Result for multiplication is: %d\n", result );
+    result = division(a, b);
+    printf("Result for division is: %d\n", result );
+
     
     return 0;
 }
