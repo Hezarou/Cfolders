@@ -22,13 +22,21 @@ int subtract(int a, int b)
 
 int multiplication(int a, int b)
 {
-    int multresult;
+    int multresult = 0;
     multresult = a * b;
 
     return multresult;
 
 }
 
+int division(int a, int b)
+{
+    int divresult = 0;
+    divresult = a / b;
+
+    return divresult;
+
+}
 
 int main(void)
 {
