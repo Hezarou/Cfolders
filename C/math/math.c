@@ -20,6 +20,16 @@ int subtract(int a, int b)
     return subresult;
 }
 
+int multiplication(int a, int b)
+{
+    int multresult;
+    multresult = a * b;
+
+    return multresult;
+
+}
+
+
 int main(void)
 {
     int result = 0;
